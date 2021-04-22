@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeriBachat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,600&display=swap" rel="stylesheet"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="web-name">One<span>Click</span></div>
+        <div class="search">
+            <input type="text" placeholder="Enter Product name">
+            <i id="search-item" class="fas fa-search"></i>
+        </div>
+        <div class="end-navbar">
+            <p>Home</p>
+            <p>About</p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="photos">
+            <div class="sub-imgs">
+                <img id="img1" src="https://images-na.ssl-images-amazon.com/images/I/61BSpkRG7dL._SX522_.jpg" alt="">
+                <img id="img2" src="https://images-na.ssl-images-amazon.com/images/I/61BSpkRG7dL._SX522_.jpg" alt="">
+                <img id="img3" src="https://images-na.ssl-images-amazon.com/images/I/61BSpkRG7dL._SX522_.jpg" alt="">
+                <img id="img4" src="https://images-na.ssl-images-amazon.com/images/I/61BSpkRG7dL._SX522_.jpg" alt="">
+            </div>
+            <img id="img1" class="main-img" src="https://images-na.ssl-images-amazon.com/images/I/61BSpkRG7dL._SX522_.jpg" alt="">
+        </div>
+        <div class="content">
+            <h2 id="title"></h2>
+            <!-- boAt Rockerz 255 Sports in-Ear Bluetooth Neckband Earphone with Mic(Neon)  -->
+            <button class="compare-btn">Compare Now</button>
+            <h2>Product Description</h2>
+            <p id="desc">            
+                Battery: Rockerz 255 Pro offers a playback time of up to 10 hours and gets charged to 100% in 1 hour <br>
+                Bluetooth: It has Bluetooth v5.0 with a range of 10m and is compatible with Android & iOS<br>
+                IPX rating: It has an IPX5 marked water & sweat resistance.<br>
+                ANC: NA<br>
+                No. of Mic: 1<br>
+                Other Inclusions: Additional Earmuffs, Micro USB Charging Cable, Warranty Card, User Manual<br>
+                Sports friendly design with Easy Controls<br>
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="prod-comp">
+        <div class="amazon">
+            <div class="logo">
+                <img src="./images/Amazon_icon.png" alt="">
+            </div>
+            <div class="info">
+                <table id="amazondata">
+                    <tbody>
+                    </tbody>
+                </table>
+                <br>
+                <a href="" id="amazon-reviews" class="reviews" target="_blank">Click here to see reviews</a>
+                <a href="" id="amazon-link" target="_blank"><button class="go-to-btn">View Details</button></a>
+            </div> 
+        </div>
+        <div class="flipkart">
+            <div class="logo">
+                <img src="./images/flipkart.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

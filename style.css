@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.web-name{
+    color: #F45A5A;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.web-name span{
+    color: rgb(6, 6, 80);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    border: none;
+    border-bottom: 2px solid black;
+    min-width: 400px;
+    outline: none;
+    padding: 5px;
+}
+.search i{
+    cursor: pointer;
+    color: #850000;
+    font-size: 1.1rem;
+}
+.end-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.end-navbar p{
+    margin: 0 20px;
+}
+
+
+
+
+.main{
+    display: flex;
+    margin: 0 10%;
+    margin-top: 100px;
+}
+.photos,.content{
+    width: 50%;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-img{
+    width: 250px;
+    padding: 10px 0;
+}
+.sub-imgs{
+    display: flex;
+    flex-direction: column;
+}
+.sub-imgs img{
+    width: 70px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.sub-imgs img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+
+
+.content{
+    padding-right: 50px;
+}
+.compare-btn{
+    width: 60%;
+    height: 50px;
+    margin: 40px 0;
+    outline: none;
+    background: #850000;
+    color: white;
+    cursor: pointer;
+}
+#desc{
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.prod-comp{
+    margin: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.amazon,.flipkart{
+    border: 1px solid #011D67;
+    width: 500px;
+    border-radius: 10px;
+}
+.amazon .logo,.flipkart .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.flipkart .logo{
+    background: #0190D9;
+}
+.amazon .logo{
+    background: #F2942D;    
+}
+.logo img{
+    width: 50px;
+}
+.info{
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+table{
+    width: 100%;
+}
+tr td {
+    padding: 5px;
+    text-align: left;    
+}
+.card-name{
+    font-weight: 300;
+}
+.go-to-btn{
+    width: 80%;
+    height: 40px;
+    margin: 0 10%;
+    margin-top: 20px;
+    outline: none;
+    background: white;
+    color: #850000;
+    cursor: pointer;
+    border: 1px solid #850000;
+    border-radius: 8px;
+}
+.reviews{
+    color: #0190D9;
+    text-decoration: none;
+    padding: 7px;
+}
+.cross{
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-weight: 300;
+}
